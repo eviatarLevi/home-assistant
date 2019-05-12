@@ -49,7 +49,8 @@ FIBARO_TYPEMAP = {
     'com.fibaro.hvac': 'climate',
     'com.fibaro.setpoint': 'climate',
     'com.fibaro.FGT001': 'climate',
-    'com.fibaro.thermostatDanfoss': 'climate'
+    'com.fibaro.thermostatDanfoss': 'climate',
+    'com.fibaro.doorLock': 'switch'
 }
 
 DEVICE_CONFIG_SCHEMA_ENTRY = vol.Schema({
